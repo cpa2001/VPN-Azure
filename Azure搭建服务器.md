@@ -353,4 +353,4 @@ Jan 11 05:46:44 Azure-Ubuntu-VPN systemd[1]: Started Shadowsocks.
 
 **PPTPD（本文不适用，这是另一套方案）：**
 
-[(Linux)在Ubuntu下搭建VPN服务器的方法 — super_fazai | super_fazai's Blog (superonesfazai.github.io)](https://superonesfazai.github.io/articles/2016/12/09/(Linux)在Ubuntu下搭建VPN服务器的方法.html#:~:text=(Linux)在Ubuntu下搭建VPN服务器的方法 1 用root账户登陆服务器 2 安装PPTPD apt-get install pptpd,-j MASQUERADE ... 8 重新启动服务 %2Fetc%2Finit.d%2Fpptpd restart 更多项目)
+https://superonesfazai.github.io/articles/2016/12/09/(Linux)%E5%9C%A8Ubuntu%E4%B8%8B%E6%90%AD%E5%BB%BAVPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%96%B9%E6%B3%95.html#:~:text=%28Linux%29%E5%9C%A8Ubuntu%E4%B8%8B%E6%90%AD%E5%BB%BAVPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%96%B9%E6%B3%95%201%20%E7%94%A8root%E8%B4%A6%E6%88%B7%E7%99%BB%E9%99%86%E6%9C%8D%E5%8A%A1%E5%99%A8%202%20%E5%AE%89%E8%A3%85PPTPD%20apt-get%20install%20pptpd,-j%20MASQUERADE%20...%208%20%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%20%2Fetc%2Finit.d%2Fpptpd%20restart%20%E6%9B%B4%E5%A4%9A%E9%A1%B9%E7%9B%AE
