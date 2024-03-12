@@ -54,6 +54,10 @@ sudo snap install shadowsocks
 
 ## 2.4 创建Shadowsocks的配置文件
 
+```
+pip install shadowsocks
+```
+
 通常是`/etc/shadowsocks.json`
 
 ```Plain
