@@ -1,4 +1,23 @@
 # VPN-Azure
-本来想使用AWS服务器搭建VPN，我是香港学生，发现AWS学生账户使用香港以外的服务器还是要收费，因此这里使用Azure学生免费额度搭建VPN服务器。
 
-详细步骤参考[Azure搭建服务器.md](https://github.com/cpa2001/VPN-Azure/blob/main/Azure%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
+1. 创建或者git clone `setup_shadowsocks.sh` 的脚本
+```shell
+touch setup_shadowsocks.sh
+chmod +x setup_shadowsocks.sh
+code setup_shadowsocks.sh
+```
+2. 运行 `setup_shadowsocks.sh` 的脚本
+```shell
+sudo chmod +x setup_shadowsocks.sh
+sudo ./setup_shadowsocks.sh
+```
+3. Azure新建入站规则
+   <img width="575" alt="image" src="https://github.com/user-attachments/assets/0c1be5e1-78fa-4326-a817-13c2aa0b6941" />
+
+4. 本地检测是否可以成功连接
+```shell
+nc -zv <IP> 460
+```
+
+
+旧版手工配置shadowsocks：[Azure搭建服务器.md](https://github.com/cpa2001/VPN-Azure/blob/main/Azure%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
