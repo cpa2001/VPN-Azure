@@ -12,9 +12,10 @@ sudo chmod +x setup_shadowsocks.sh
 sudo ./setup_shadowsocks.sh
 ```
 3. Azure新建入站规则
+
    <img width="575" alt="image" src="https://github.com/user-attachments/assets/0c1be5e1-78fa-4326-a817-13c2aa0b6941" />
 
-4. 本地检测是否可以成功连接
+5. 本地检测是否可以成功连接
 ```shell
 nc -zv <IP> 460
 ```
