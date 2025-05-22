@@ -28,7 +28,7 @@ apt update && apt upgrade -y
 echo "安装必要的软件包..."
 apt install -y shadowsocks-libev ufw
 
-# 创建新用户 chenpengan 并设置密码
+# 创建新用户 username 并设置密码
 if id "$USERNAME" &>/dev/null; then
   echo "用户 $USERNAME 已存在，跳过创建用户步骤。"
 else
