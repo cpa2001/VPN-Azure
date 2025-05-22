@@ -3,8 +3,8 @@
 set -e
 
 # 变量定义
-USERNAME="chenpengan"
-PASSWORD="CHENpengan010609"
+USERNAME="username"
+PASSWORD="passwd"
 HOME_DIR="/home/$USERNAME"
 SS_CONFIG="/etc/shadowsocks-libev/config.json"
 SS_SERVICE="/lib/systemd/system/shadowsocks-libev.service"
